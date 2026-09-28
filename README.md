@@ -1,38 +1,29 @@
 # OIBSIP - Oasis Infobyte Data Science Internship
+**Intern:** Laxman Manku | Domain: Data Science
 
-**Intern: Laxman Manku | Domain: Data Science**
+## 📂 Repository Structure
+OIBSIP/
+├── DataScience-Task1-IrisClassification/
+├── DataScience-Task2-UnemploymentAnalysis/
+└── DataScience-Task3-CarPricePrediction/
 
-## Overview
-This repository contains 3 tasks completed as part of OASIS INFOBYTE Data Science Internship.
-
-## Tasks Completed
-
+## ✅ Tasks Completed
 ### Task 1 - Iris Flower Classification
-- Dataset: Iris dataset from sklearn
-- Models: Logistic Regression, Random Forest, KNN
-- Accuracy: 96-100%
-- EDA: Pairplot, Info, Describe, Null check
+- Dataset: Iris from sklearn | Models: Logistic Regression, RF, KNN | Accuracy: 96-100%
 
 ### Task 2 - Unemployment Analysis in India
-- Dataset: Unemployment in India (Kaggle)
-- Analysis: Pre vs Post COVID Impact
-- Visuals: Line plot, Bar chart, Heatmap, Correlation
-- Finding: Unemployment spiked 3x during 2020 lockdown
+- Dataset: Kaggle | Analysis: Pre vs Post COVID | Finding: 3x spike in 2020
 
 ### Task 3 - Car Price Prediction with ML
-- Dataset: Car Price Dataset (CarDekho)
-- Models: Linear Regression, Random Forest Regressor
-- Metrics: R2 Score, RMSE, MAE
-- Finding: Present Price and Age are top important features
+- Dataset: CarDekho | Models: Linear Regression, Random Forest | R2: 0.85+
 
-## Tech Stack
+## 🛠️ Tech Stack
 Python, Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib
 
-## How to Run
+## ▶️ How to Run
 pip install pandas numpy scikit-learn seaborn matplotlib
-python Task1_Iris_Classification.py
+jupyter notebook DataScience-Task1-IrisClassification/IrisClassification.ipynb
 
 ## Author
 Laxman Manku
-
 #OasisInfobyte #DataScience #OIBSIP #Internship
